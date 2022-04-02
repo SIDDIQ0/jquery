@@ -1,0 +1,40 @@
+$(document).ready(function(){
+  $(".button1").click(function(){
+      $(".first").hide().fadeIn(1000).css("margin-left","60px");
+      $(".second").hide();
+      $(".third").hide();
+      $(".fourth").hide();
+  })
+})
+$(document).ready(function(){
+  $(".button2").click(function(){
+      $(".first").hide();
+      $(".second").hide().fadeIn(1000).css("margin-left","60px");
+      $(".third").hide();
+      $(".fourth").hide();
+   })
+})
+$(document).ready(function(){
+  $(".button3").click(function(){
+      $(".first").hide();
+      $(".second").hide();
+      $(".third").hide().fadeIn(1000).css("margin-left","80px");
+      $(".fourth").hide();
+   })
+})
+$(document).ready(function(){
+  $(".button4").click(function(){
+      $(".first").hide();
+      $(".second").hide();
+      $(".third").hide();
+      $(".fourth").hide().fadeIn(1000).css("margin-left","80px");
+   })
+})
+$(document).ready(function(){
+  $(".button0").click(function(){
+      $(".first").fadeIn(700).css("margin-left","40px");
+      $(".second").fadeIn(700).css("margin-left","40px");
+      $(".third").fadeIn(700).css("margin-left","40px");
+      $(".fourth").fadeIn(700).css("margin-left","40px");
+   })
+})
